@@ -1,0 +1,22 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    &__list {
+        /* обозначаю элемент как flex-container */
+        display: flex;
+        list-style-type: none;
+        gap: 32px;
+        font-size: 18px;
+        font-weight: 700;
+        align-items: center;
+    }
+    &__url {
+        color: #FFF;
+        &:hover {
+            color: #4F8FF0;
+            transition: 0.5s;
+            text-decoration: underline;
+        }
+    }
+    
+}

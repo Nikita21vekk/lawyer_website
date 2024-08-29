@@ -1,0 +1,38 @@
+.slider {
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__Bullets {
+        display: flex;
+        gap: 8px;
+        
+    }
+    &__Buttons {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+    }
+    &__Bullet {
+        display: flex;
+        width: 4px;
+        height: 24px;
+        background-color: #fff;
+        margin-top: auto;
+        cursor: pointer;
+    }
+    &__Button {
+        cursor: pointer;
+    }
+    &__line {
+        width: 42px;
+        height: 3px;
+        background-color: #fff;
+        transform: rotate(-70deg);
+    }
+}
+@media (max-width: 696px) {
+    .slider__content {
+        display: none;
+    }
+}

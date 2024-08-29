@@ -1,0 +1,145 @@
+.personal {
+    background-color: #F7F7F7;
+    text-align: center;
+    box-sizing: content-box;
+    padding: 80px 0 80px 0;
+    &__title {
+        transition: 0.5s;
+        &:after {
+            content: '';
+            margin: 0 auto;
+        }
+    }
+    &__cards {
+        display: flex;
+        gap: 24px;
+        margin-top: 48px;
+        text-align: center;
+        gap: 24px;
+        
+        
+    }
+    &__card-title {
+        color: #222;
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 24px;
+    }
+    &__card-text {
+        color: #222;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 120%;
+        text-transform: lowercase;
+        margin-top: 10px;
+        margin-bottom: 24px;
+
+    }
+    &__image {
+        height: 320px;
+        
+    }
+    &__card {
+        background-color: #fff;
+        position: relative;
+        width: 312px;
+        align-items: center;
+        box-shadow: 2px 2px 12px 0px rgba(33, 33, 33, 0.12);
+        transition: 0.5s;
+        cursor: url('../img/cursors/personal_pointer.svg'), auto;
+        &:hover {
+            .personal__card-hover {
+                transition: 0.5s;
+                opacity: 1;
+            }
+        }
+    }
+    &__cube1 {
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        border-top: 1px solid var(--blue-color-100, #4F8FF0);
+        border-left: 1px solid var(--blue-color-100, #4F8FF0);
+    }
+    &__cube2 {
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        border-top: 1px solid var(--blue-color-100, #4F8FF0);
+        border-right: 1px solid var(--blue-color-100, #4F8FF0);
+    }
+    &__cube3 {
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        border-bottom: 1px solid var(--blue-color-100, #4F8FF0);
+        border-left: 1px solid var(--blue-color-100, #4F8FF0);
+    }
+    &__cube4 {
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        border-bottom: 1px solid var(--blue-color-100, #4F8FF0);
+        border-right: 1px solid var(--blue-color-100, #4F8FF0);
+    }
+    &__hover-content {
+        position: absolute;
+        top: 83px;
+        padding: 0 20px;
+    }
+    &__title-hover {
+        color: #222;
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 24px;
+        line-height: 120%;
+    }
+    &__info-hover {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    &__text2-hover {
+        width: 265px;
+        margin-top: 40px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 120%;
+    }
+    &__age-hover {
+        color: #222;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 120%;
+        margin-top: 40px;
+    }
+    &__image {
+        width: 100%;
+        object-fit: cover;
+    }
+    &__card-hover {
+        opacity: 0;
+        width: 312px;
+        height: 414px;
+        position: absolute;
+        top: 0;
+        background-color: #ffffff;
+    }
+}
+@media (max-width: 834px) {
+    .personal {
+        padding: 60px 0 60px 0;
+    }
+}
+@media (max-width: 390px) {
+    .personal {
+        padding: 40px 0 40px 0;
+    }
+}

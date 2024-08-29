@@ -1,0 +1,68 @@
+.header {
+    background-color: #010101;
+    &__top {
+        // display: flex;
+        // justify-content: space-between;
+        // align-items: center;
+        // text-align: center;
+        padding: 18px 0;
+    }
+    &__bottom {
+        position: absolute;
+        top: 52px;
+        width: 100%;
+        padding: 28px 0;
+        background: rgba(1, 1, 1, 0.76);
+    }
+    &__contacts {
+        display: flex;
+        gap: 24px;
+    }
+    &__conainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+.contacts__link {
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+    line-height: 120%;
+    font-family: "Nunito Sans";
+    font-weight: 600;
+    text-decoration: none;
+}
+.call-request__button {
+    color: #4F8FF0;
+    background: none;
+    transition: 0.5s;
+    &:hover {
+        color: #fff;
+    }
+}
+@media (max-width: 1174px) {
+    .nav__list {
+        display: none;
+    }
+
+}
+@media (max-width: 634px) {
+    .contacts__link-mail {
+        display: none;
+    }
+
+}
+@media (max-width: 834px) {
+    .header__bottom {
+        padding: 16px 0;
+    }
+}

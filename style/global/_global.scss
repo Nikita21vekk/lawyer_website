@@ -1,0 +1,19 @@
+@import url("../fonts.css");
+.container {
+    padding: 0 24px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1368px;
+}
+a {
+    text-decoration: none;
+    color: var(--blue-color-100, #4F8FF0);
+}
+html {
+    scroll-behavior: smooth; 
+}
+@media (max-width: 1382px) {
+    .container {
+        padding: 0 69px;
+    }
+}
