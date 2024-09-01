@@ -47,8 +47,8 @@
         margin-top: 16px;
         overflow: hidden;
         display: -webkit-box;
-        -webkit-line-clamp: 5;
-            line-clamp: 5;
+        -webkit-line-clamp: 3;
+            line-clamp: 3;
         -webkit-box-orient: vertical;
     }
 
@@ -91,12 +91,11 @@
         }
     }
     &__slider-line {
-        width: 42px;
-        height: 3px;
-        transform: rotate(-70deg);
+        width: 37px;
+        height: 2.5px;
+        transform: rotate(-65deg);
         background-color: #4F8FF0;
     }
-    
 }
 @media (max-width: 754px) {
     .from__card2 {
@@ -114,5 +113,29 @@
 @media (max-width: 390px) {
     .from {
         padding: 40px 0 40px 0;
+    }
+}
+@media (max-width: 1382px) {
+    .from__title {
+        padding: 0 0 0 64px;
+    }
+    .from__btns {
+        padding: 0 0 0 64px;
+    }
+}
+@media (max-width: 1382px) {
+    .from__cards {
+        padding: 0 0 0 69px;
+    }
+}
+@media (max-width: 390px) {
+    .from__title {
+        padding: 0 0 0 24px;
+    }
+    .from__btns {
+        padding: 0 0 0 24px;
+    }
+    .from__cards {
+        padding: 0 0 0 24px;
     }
 }

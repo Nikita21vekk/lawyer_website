@@ -63,6 +63,7 @@
     }
     &__card-text {
         margin-top: 10px;
+        
     }
     &__cube1 {
         width: 35px;
@@ -108,6 +109,14 @@
     .servic {
         padding: 60px 0 60px 0;
     }
+    .servic__card-text {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+            line-clamp: 3;
+        -webkit-box-orient: vertical;
+        font-size: 14px;
+    }
 }
 @media (max-width: 390px) {
     .servic {
@@ -123,8 +132,27 @@
 @media (max-width: 833px) {
     .servic__cards {
         flex-wrap: nowrap;
-        padding: 24px 16px 32px 16px;
         overflow: scroll;
         width: 100%;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+    .servic__card {
+        padding: 24px 16px 32px 16px;
+        width: 250px;
+        height: 215px;
+    }
+    .servic__card-title {
+        line-height: 1;
+    }
+}
+@media (max-width: 1382px) {
+    .servic__cards {
+        padding: 0 0 0 69px;
+    }
+}
+@media (max-width: 390px) {
+    .servic__cards {
+        padding: 0 0 0 24px;
     }
 }
