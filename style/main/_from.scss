@@ -19,6 +19,8 @@
         display: flex;
         gap: 24px;
         margin-top: 48px;
+        overflow: scroll;
+        width: 100%;
     }
     &__card {
         background-color: #fff;
@@ -85,6 +87,7 @@
             background-color: #fff;
             color: #000000;
             outline: 2px solid #E6E6E6;
+            cursor: url('../img/cursors/personal_pointer.svg'), auto;
         }
     }
     &__slider-line {

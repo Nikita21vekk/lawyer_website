@@ -5,6 +5,9 @@
     line-height: 150%;
     font-weight: 900;
     font-size: 28px;
+    &:hover {
+      cursor: url('../img/cursors/materials_pointer.svg'), auto;
+    }
 }
 .logo__text {
     display: flex;
@@ -14,6 +17,9 @@
     text-transform: lowercase;
     line-height: 150%;
     margin-top: -10px;
+    &:hover {
+      cursor: url('../img/cursors/materials_pointer.svg'), auto;
+    }
 }
 @media (max-width: 834px) {
     .logo__title {

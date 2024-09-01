@@ -124,6 +124,7 @@
     .servic__cards {
         flex-wrap: nowrap;
         padding: 24px 16px 32px 16px;
-        
+        overflow: scroll;
+        width: 100%;
     }
 }

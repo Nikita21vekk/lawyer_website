@@ -9,9 +9,11 @@ document.querySelector("#home__btn").addEventListener("click", () => {
 // Бургер
 document.querySelector(".burger__img-open").addEventListener("click", () => {
     burger.style = "display: block"
+    document.getElementsByTagName("body")[0].style = "overflow: hidden !important";
 })
 document.querySelector(".burger__close").addEventListener("click", () => {
     burger.style = "display: none"
+    document.getElementsByTagName("body")[0].style = "overflow: visible !important";
 })
 
 // Слайдер

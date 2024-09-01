@@ -40,6 +40,7 @@
     font-family: "Nunito Sans";
     font-weight: 600;
     text-decoration: none;
+    cursor: url('../img/cursors/materials_pointer.svg'), auto;
 }
 .call-request__button {
     color: #4F8FF0;
@@ -47,6 +48,7 @@
     transition: 0.5s;
     &:hover {
         color: #fff;
+        cursor: url('../img/cursors/materials_pointer.svg'), auto;
     }
 }
 @media (max-width: 1174px) {

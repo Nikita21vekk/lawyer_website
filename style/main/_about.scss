@@ -23,9 +23,11 @@
         display: flex;
         gap: 24px;
         margin-top: 32px;
+        
     }
     &__btn-history {
         padding: 0;
+        
     }
     &__btn-certificates {
         color: #222;
@@ -43,6 +45,7 @@
             background-color: #fff;
             color: #000000;
             outline: 2px solid #E6E6E6;
+            cursor: url('../img/cursors/personal_pointer.svg'), auto;
         }
     }
     &__img {
