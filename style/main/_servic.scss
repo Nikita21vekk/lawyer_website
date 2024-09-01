@@ -118,11 +118,6 @@
         font-size: 14px;
     }
 }
-@media (max-width: 390px) {
-    .servic {
-        padding: 40px 0 40px 0;
-    }
-}
 @media (max-width: 986px) {
     .servic__card {
         padding: 30px 32px 40px 32px;
@@ -151,7 +146,10 @@
         padding: 0 0 0 69px;
     }
 }
-@media (max-width: 390px) {
+@media (max-width: 500px) {
+    .servic {
+        padding: 40px 0 40px 0;
+    }
     .servic__cards {
         padding: 0 0 0 24px;
     }

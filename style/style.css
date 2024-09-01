@@ -356,11 +356,6 @@ html {
     font-size: 14px;
   }
 }
-@media (max-width: 390px) {
-  .servic {
-    padding: 40px 0 40px 0;
-  }
-}
 @media (max-width: 986px) {
   .servic__card {
     padding: 30px 32px 40px 32px;
@@ -389,7 +384,10 @@ html {
     padding: 0 0 0 69px;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 500px) {
+  .servic {
+    padding: 40px 0 40px 0;
+  }
   .servic__cards {
     padding: 0 0 0 24px;
   }
@@ -650,7 +648,7 @@ html {
     padding: 0 0 0 69px;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 500px) {
   .personal {
     padding: 40px 0 40px 0;
   }
@@ -786,7 +784,7 @@ html {
     padding: 0 0 0 69px;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 500px) {
   .from__title {
     padding: 0 0 0 24px;
   }
@@ -952,7 +950,7 @@ html {
     padding: 0 0 0 69px;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 500px) {
   .material {
     padding: 40px 0 40px 0;
   }
@@ -1342,7 +1340,7 @@ html {
   cursor: url("../img/cursors/materials_pointer.svg"), auto;
 }
 .slider__line {
-  width: 42px;
+  width: 36px;
   height: 3px;
   background-color: #fff;
   transform: rotate(-70deg);
@@ -1353,7 +1351,7 @@ html {
     display: none;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 660px) {
   .from__slider-Buttons {
     display: none;
   }
