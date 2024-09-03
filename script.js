@@ -22,17 +22,17 @@ function onSlider() {
         document.querySelector("#Bullet1").style = "background-color: #4F8FF0; height: 40px;";
         document.querySelector("#Bullet2").style = "background-color: #fff;";
         document.querySelector("#Bullet3").style = "background-color: #fff;";
-        document.querySelector(".home").style = "background-image: url('../img/bg.webp')";
+        document.querySelector(".home").style = "background-image: url('./img/bg.webp')";
     } else if (slider == 2) {
         document.querySelector("#Bullet1").style = "background-color: #fff;";
         document.querySelector("#Bullet2").style = "background-color: #4F8FF0; height: 40px;";
         document.querySelector("#Bullet3").style = "background-color: #fff;";
-        document.querySelector(".home").style = "background-image: url('../img/slider2.webp')";
+        document.querySelector(".home").style = "background-image: url('./img/slider2.webp')";
     }else if (slider == 3) {
         document.querySelector("#Bullet1").style = "background-color: #fff;";
         document.querySelector("#Bullet2").style = "background-color: #fff;";
         document.querySelector("#Bullet3").style = "background-color: #4F8FF0; height: 40px;";
-        document.querySelector(".home").style = "background-image: url('../img/book.webp')";
+        document.querySelector(".home").style = "background-image: url('./img/book.webp')";
     }
 }
 onSlider()
