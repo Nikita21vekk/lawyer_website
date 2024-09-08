@@ -751,6 +751,9 @@ html {
   transform: rotate(-65deg);
   background-color: #4F8FF0;
 }
+.from__slider-Button {
+  cursor: url("../img/cursors/personal_pointer.svg"), auto;
+}
 
 @media (max-width: 754px) {
   .from__card2 {
@@ -828,7 +831,7 @@ html {
   gap: 16px;
   position: relative;
   transition: 0.5s;
-  cursor: url("../img/cursors/materials_pointer.svg"), auto;
+  cursor: url("../img/cursors/personal_pointer.svg"), auto;
 }
 .material__card:hover .material__card-hover {
   transition: 0.5s;
@@ -844,6 +847,7 @@ html {
   background-color: rgba(79, 143, 240, 0.3647058824);
   width: 100%;
   height: 270px;
+  cursor: url("../img/cursors/materials_pointer.svg"), auto;
 }
 .material__cards {
   display: flex;
@@ -1085,7 +1089,7 @@ html {
   background-color: #fff;
   color: #4f8ff0;
   outline: 2px solid #4f8ff0;
-  cursor: url("../img/cursors/materials_pointer.svg"), auto;
+  cursor: url("../img/cursors/personal_pointer.svg"), auto;
 }
 .footer__bottom {
   color: #fff;
@@ -1304,7 +1308,7 @@ html {
   background-color: #fff;
   color: #4F8FF0;
   outline: 2px solid #4F8FF0;
-  cursor: url("../img/cursors/materials_pointer.svg"), auto;
+  cursor: url("../img/cursors/personal_pointer.svg"), auto;
 }
 
 @media (max-width: 538px) {

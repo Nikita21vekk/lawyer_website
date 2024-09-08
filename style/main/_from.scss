@@ -96,6 +96,9 @@
         transform: rotate(-65deg);
         background-color: #4F8FF0;
     }
+    &__slider-Button {
+        cursor: url('../img/cursors/personal_pointer.svg'), auto;
+    }
 }
 @media (max-width: 754px) {
     .from__card2 {
